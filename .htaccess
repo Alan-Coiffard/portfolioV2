@@ -1,0 +1,4 @@
+RewriteEngine  on
+RewriteRule ^realisation/([a-z0-9\-]+)$ view.php?slug=$1
+RewriteRule ^categorie/([a-z0-9\-]+)$ index.php?categorie=$1
+RewriteRule ^formpassword/([a-z0-9\-]+)$ /lib/formpassword?word=$1
